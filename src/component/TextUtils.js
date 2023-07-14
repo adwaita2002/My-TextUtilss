@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
+
 
 export default function TextUtils() {
   return (
@@ -19,7 +21,9 @@ export default function TextUtils() {
         </div>
      
 
-      <a href="Home"><div className="btn btn-primary"> Go To Home Page</div></a>
+      {/* <a href="Home"><div className="btn btn-primary"> Go To Home Page</div></a> */}
+      <Link to={"/Home"}><div className="btn btn-primary"> Go To Home Page</div></Link>
+
     </div>
   )
 }
