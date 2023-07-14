@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+.list-item{
+  color: red;
+}
+.TextForm{
+  
+  margin: 70px;
+  height:78vh;
+  display: flex;
+  justify-content: center;
+  }
+
+.about-container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 94vh;
+  margin: 0px 200px;
+  
+
+}
+
+.mainBox{
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 70px;
+    height: 94vh;
+    font-family: fangsong;
+    text-shadow: 10px 12px 6px #788918;
+    background-color: #000000;
+    color: #4ddace;
+}
+
+  
+
+
